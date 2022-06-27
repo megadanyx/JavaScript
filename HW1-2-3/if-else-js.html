@@ -1,0 +1,31 @@
+<script>
+let dayIndex = 1
+
+document.write(`<ul>`)
+while(dayIndex<=7) {
+    if (dayIndex == 1) {
+        dayName = "Monday";
+        document.write(`<li>${dayIndex}. ${dayName}</li>`);
+    } else if (dayIndex == 2) {
+        dayName = "Tuesday ";
+        document.write(`<li>${dayIndex}. ${dayName}</li>`);
+    } else if (dayIndex == 3) {
+        dayName = "Wednesday ";
+        document.write(`<li>${dayIndex}. ${dayName}</li>`);
+    } else if (dayIndex == 4) {
+        dayName = "Thursday ";
+        document.write(`<li>${dayIndex}. ${dayName}</li>`);
+    } else if (dayIndex == 5) {
+        dayName = "Friday ";
+        document.write(`<li>${dayIndex}. ${dayName}</li>`);
+    } else if (dayIndex == 6) {
+        dayName = "Saturday ";
+        document.write(`<li>${dayIndex}. ${dayName}</li>`);
+    }else if (dayIndex == 7) {
+        dayName = "Sunday ";
+        document.write(`<li>${dayIndex}. ${dayName}</li>`);
+    }
+  dayIndex++
+}
+document.write(`</ul>`)
+</script>
