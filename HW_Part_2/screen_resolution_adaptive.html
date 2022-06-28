@@ -1,0 +1,30 @@
+ <!-----
+        ask - media query
+    ------>
+
+<script>
+
+
+    const BREAK_POINT_LARGE = 1200
+    const BREAK_POINT_MEDIU = 980
+    const BREAK_POINT_SMALL = 560
+    // ----------------x----------------------> window size
+    //     mobile     1100    desktop
+
+                        // Variabila predifinita in chrome returneaza latimea window
+    let windowWidth = innerWidth // and innerHight
+
+    // Decizion / adaptive
+    if (windowWidth >= BREAK_POINT_LARGE && windowWidth <= 3000 ){
+        alert("Large Desktop " +innerWidth)
+    }else if(windowWidth < BREAK_POINT_LARGE && windowWidth >= BREAK_POINT_MEDIU){
+        alert("Mediu Desktop " +innerWidth)
+    }else if(windowWidth < BREAK_POINT_MEDIU && windowWidth >= BREAK_POINT_SMALL){
+        alert("Small Desktop " +innerWidth)
+    }else if(windowWidth < BREAK_POINT_SMALL && windowWidth >= 60){
+        alert("Extra small Desktop " +innerWidth)
+    }else{
+        alert("Error Desktop size --> " +innerWidth+"x"+innerHight)
+    }
+
+</script>

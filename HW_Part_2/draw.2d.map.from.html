@@ -1,0 +1,29 @@
+<body style="font-family: monospace; line-height: 9px">
+<script>
+
+
+let rx=5
+let ry=5
+let sy=9
+let sx=1
+// ########## line x 10 ##########    
+for(let y = 1 ; y <=10 ; y++){
+    // ########## dot x 10 ##########
+    for(let x = 1; x <= 10 ; x++){
+        if (rx==x && ry == y){
+            document.write('R')
+        }else if (sx==x && sy == y){
+            document.write('S')
+        }else{
+            document.write('.')
+        }
+    }
+        document.write("<br/>")
+    // ########## dot x 10 ##########
+}
+// ########## line x 10 ##########    
+
+
+
+</script>
+</body>
