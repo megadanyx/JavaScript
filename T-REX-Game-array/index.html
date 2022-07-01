@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>T-Rex-Game</title>
+</head>
+<style>
+    #m div{
+        width: 48px;
+        height: 48px;
+        border: 1px solid rgb(66,64,64);   
+        float: left;
+    }
+    
+    #m .t-rex{
+        background-image: url(image/t-rex.png);
+
+    }
+    #m .t-rex.right{
+        transform: scaleX(-1);
+    }
+    #m .cactus{
+        background-image: url(image/22332-cactus-icon.png);
+    }
+
+
+</style>
+
+
+
+<body onkeydown="action()">
+    <div id="m">
+<!-- 
+    <div></div>
+
+    <div class="t-rex"></div>
+    <div class="cactus"></div> -->
+    
+    </div>
+    <script src="game.js"></script>
+    
+</body>
+</html>
