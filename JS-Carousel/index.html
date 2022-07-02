@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS - Carousel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="carousel.css">
+</head>
+
+<body onkeydown="keyTaste()">
+    <div id="carousel">
+        <div class="carouselSlids" id="carouselSlids"> </div>
+        <div id="caruselTitles"></div>
+        <button class="btn" onclick="prev()"><i class="fa fa-arrow-circle-o-left"></i></button>
+        <span id="carouselIndicators"></span>
+        <button class="btn" onclick="next()"><i class="fa fa-arrow-circle-o-right"></i></button>
+        <br /><input onclick="play()" class="auto-box" type="checkbox"><i style="font-size: 35px"> AutoSlid</i></button>
+    </div>
+    <script src="carouserl.js"></script>
+</body>
+
+</html>
