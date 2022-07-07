@@ -1,0 +1,54 @@
+body{
+    background-color: #223;
+    font-family: Arial;
+    margin: 0 ; 
+}
+a {
+    text-decoration: none;
+}
+#navbar{
+    background-color: #112;
+    padding: 1em;
+}
+#navbar a {
+    color: white;
+    font-size: 1.25em;
+    padding: .5em;
+}
+#navbarDrop{
+    text-align: right;
+}
+#navbarDrop a{
+    /* color: white; */
+    font-size: 1.25em;
+    padding: .5em;
+    /* background-color: #112; */
+    padding: 1em;
+
+}
+#mylist {
+    float: right;
+  }
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #101;
+  }
+  
+  li a {
+    text-align: center;
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #115;
+    color: white;
+  }
